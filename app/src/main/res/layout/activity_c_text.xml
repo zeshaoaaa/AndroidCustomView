@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#2871D3"
+        android:layout_height="match_parent"
+        tools:context=".f_activity.MainActivity">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+        <org.jay.androidcustomview.c_text.C1TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="文字样式"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.c_text.C2TextAlignView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="文字对齐"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.c_text.C3TextTransformView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="文字变形"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.c_text.C4TextBoldExampleView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="其他设置"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.c_text.C5TextPosView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="逐字绘制"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.c_text.C6TextPathView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="路径绘制"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.c_text.C7TextFaceView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="系统字体"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.c_text.C8TextAssetView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="资源字体"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.c_text.C9TextFaceStyleView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="字体样式"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.c_text.C10TextWidthView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="文字宽度"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.c_text.C11TextBoundsView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="文字宽高"
+                style="@style/MyText"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

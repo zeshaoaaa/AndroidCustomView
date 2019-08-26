@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.jay.androidcustomview">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE/"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".f_activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--1. 绘图基础-->
+        <activity android:name=".f_activity.ABasicActivity"/>
+
+        <!--2. 路径绘制-->
+        <activity android:name=".f_activity.BPathActivity"/>
+
+        <!--3. 文字绘制-->
+        <activity android:name=".f_activity.CTextActivity"/>
+
+        <!--4. 区域操作-->
+        <activity android:name=".f_activity.DRegionActivity"/>
+
+        <!--5. 画布进阶-->
+        <activity android:name=".f_activity.ECanvasActivity"/>
+
+    </application>
+
+</manifest>

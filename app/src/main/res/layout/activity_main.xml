@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="#484848"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        tools:context=".f_activity.MainActivity">
+
+    <Button
+            android:id="@+id/btn_a_basic"
+            android:background="#F44336"
+            style="@style/MyBtn"
+            android:text="1. 绘图基础"/>
+
+    <Button
+            android:id="@+id/btn_b_path"
+            android:background="#E91E63"
+            style="@style/MyBtn"
+            android:text="2. 路径绘制"/>
+
+    <Button
+            android:id="@+id/btn_c_text"
+            android:background="#9C27B0"
+            style="@style/MyBtn"
+            android:text="3. 文字绘制"/>
+
+    <Button
+            android:id="@+id/btn_d_region"
+            android:background="#3F51B5"
+            style="@style/MyBtn"
+            android:text="4. 区域操作"/>
+
+    <Button
+            android:id="@+id/btn_e_canvas"
+            android:background="#2196F3"
+            style="@style/MyBtn"
+            android:text="5. 画布进阶"/>
+
+
+</LinearLayout>

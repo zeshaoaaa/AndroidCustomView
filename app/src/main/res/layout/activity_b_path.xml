@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#2871D3"
+        android:layout_height="match_parent"
+        tools:context=".f_activity.MainActivity">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+        <org.jay.androidcustomview.b_path.B1LineView
+                android:layout_width="300dp"
+                android:layout_height="100dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="直线路径"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.b_path.B2ArcStyleView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="弧线样式"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.b_path.B3ArcStartView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="弧线起点"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.b_path.B4AddPathView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="添加路径"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.b_path.B5PathDirectionView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="路径方向"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.b_path.B6FillPathView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="填充路径"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.b_path.B8RadarView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="雷达图"
+                style="@style/MyText"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

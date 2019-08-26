@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="#2871D3"
+        android:layout_height="match_parent"
+        tools:context=".f_activity.MainActivity">
+
+    <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <org.jay.androidcustomview.a_basic.A1PaintColorView
+                android:layout_width="300dp"
+                android:layout_height="100dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="画笔颜色"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.a_basic.A2PaintStyleView
+                android:layout_width="300dp"
+                android:layout_height="100dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="画笔样式设置"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.a_basic.A3AntiAliasView
+                android:layout_width="300dp"
+                android:layout_height="100dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="画笔锯齿设置"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.a_basic.A4CanvasColorView
+                android:layout_width="300dp"
+                android:layout_height="150dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="画布背景"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.a_basic.A5CanvasLineView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="绘制直线"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.a_basic.A6CanvasDotView
+                android:layout_width="300dp"
+                android:layout_height="80dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="绘制点"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.a_basic.A7CanvasRectView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="绘制矩形"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.a_basic.A8CanvasRoundRectView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="圆角矩形"
+                style="@style/MyText"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
