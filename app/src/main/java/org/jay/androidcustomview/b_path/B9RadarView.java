@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import androidx.annotation.Nullable;
 
-public class B8RadarView extends View {
+public class B9RadarView extends View {
 
     //网格最大半径
     private float radius;
@@ -34,15 +34,15 @@ public class B8RadarView extends View {
     // 中心与相邻两个内角相连的夹角角度
     float angle = (float) (2 * Math.PI / count);
 
-    public B8RadarView(Context context) {
+    public B9RadarView(Context context) {
         this(context, null);
     }
 
-    public B8RadarView(Context context, @Nullable AttributeSet attrs) {
+    public B9RadarView(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public B8RadarView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public B9RadarView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }

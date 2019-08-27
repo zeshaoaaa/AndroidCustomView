@@ -40,5 +40,8 @@
             style="@style/MyBtn"
             android:text="5. 画布进阶"/>
 
+    <org.jay.androidcustomview.MyView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
 </LinearLayout>

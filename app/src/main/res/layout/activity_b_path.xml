@@ -25,7 +25,7 @@
 
         <org.jay.androidcustomview.b_path.B2ArcStyleView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"/>
+                android:layout_height="130dp"/>
 
         <org.jay.androidcustomview.MyTextView
                 app:text="弧线样式"
@@ -33,13 +33,21 @@
 
         <org.jay.androidcustomview.b_path.B3ArcStartView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"/>
+                android:layout_height="130dp"/>
 
         <org.jay.androidcustomview.MyTextView
                 app:text="弧线起点"
                 style="@style/MyText"/>
 
-        <org.jay.androidcustomview.b_path.B4AddPathView
+        <org.jay.androidcustomview.b_path.B4ArcAngleView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"/>
+
+        <org.jay.androidcustomview.MyTextView
+                app:text="弧线角度"
+                style="@style/MyText"/>
+
+        <org.jay.androidcustomview.b_path.B5AddPathView
                 android:layout_width="match_parent"
                 android:layout_height="100dp"/>
 
@@ -47,7 +55,7 @@
                 app:text="添加路径"
                 style="@style/MyText"/>
 
-        <org.jay.androidcustomview.b_path.B5PathDirectionView
+        <org.jay.androidcustomview.b_path.B6PathDirectionView
                 android:layout_width="match_parent"
                 android:layout_height="120dp"/>
 
@@ -55,7 +63,7 @@
                 app:text="路径方向"
                 style="@style/MyText"/>
 
-        <org.jay.androidcustomview.b_path.B6FillPathView
+        <org.jay.androidcustomview.b_path.B7FillPathView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
 
@@ -63,7 +71,7 @@
                 app:text="填充路径"
                 style="@style/MyText"/>
 
-        <org.jay.androidcustomview.b_path.B8RadarView
+        <org.jay.androidcustomview.b_path.B9RadarView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
 

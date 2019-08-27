@@ -6,20 +6,20 @@ import android.util.AttributeSet;
 import androidx.annotation.Nullable;
 import org.jay.androidcustomview.BaseView;
 
-public class B5PathDirectionView extends BaseView {
+public class B6PathDirectionView extends BaseView {
 
     private int width;
     private Paint textPaint;
 
-    public B5PathDirectionView(Context context) {
+    public B6PathDirectionView(Context context) {
         this(context, null);
     }
 
-    public B5PathDirectionView(Context context, @Nullable AttributeSet attrs) {
+    public B6PathDirectionView(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public B5PathDirectionView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public B6PathDirectionView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }

@@ -7,22 +7,22 @@ import android.util.AttributeSet;
 import android.view.View;
 import androidx.annotation.RequiresApi;
 
-public class B7ResetPathExampleView extends View {
+public class B8ResetPathView extends View {
 
-    public B7ResetPathExampleView(Context context) {
+    public B8ResetPathView(Context context) {
         super(context);
     }
 
-    public B7ResetPathExampleView(Context context, AttributeSet attrs) {
+    public B8ResetPathView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public B7ResetPathExampleView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public B8ResetPathView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-    public B7ResetPathExampleView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public B8ResetPathView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 

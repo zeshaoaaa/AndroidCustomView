@@ -9,17 +9,17 @@ import androidx.annotation.RequiresApi;
 import org.jay.androidcustomview.BaseView;
 
 // 填充路径
-public class B6FillPathView extends BaseView {
+public class B7FillPathView extends BaseView {
 
-    public B6FillPathView(Context context) {
+    public B7FillPathView(Context context) {
         super(context);
     }
 
-    public B6FillPathView(Context context, AttributeSet attrs) {
+    public B7FillPathView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public B6FillPathView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public B7FillPathView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 

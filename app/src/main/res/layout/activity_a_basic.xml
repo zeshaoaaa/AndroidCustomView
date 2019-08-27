@@ -72,7 +72,7 @@
 
         <org.jay.androidcustomview.a_basic.A8CanvasRoundRectView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"/>
+                android:layout_height="150dp"/>
 
         <org.jay.androidcustomview.MyTextView
                 app:text="圆角矩形"

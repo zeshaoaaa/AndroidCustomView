@@ -6,20 +6,20 @@ import android.util.AttributeSet;
 import androidx.annotation.Nullable;
 import org.jay.androidcustomview.BaseView;
 
-public class B4AddPathView extends BaseView {
+public class B5AddPathView extends BaseView {
 
     private int width;
     private int centerX;
 
-    public B4AddPathView(Context context) {
+    public B5AddPathView(Context context) {
         super(context);
     }
 
-    public B4AddPathView(Context context, @Nullable AttributeSet attrs) {
+    public B5AddPathView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public B4AddPathView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public B5AddPathView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 

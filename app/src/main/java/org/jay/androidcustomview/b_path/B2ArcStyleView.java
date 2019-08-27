@@ -6,10 +6,12 @@ import android.util.AttributeSet;
 import androidx.annotation.Nullable;
 import org.jay.androidcustomview.BaseView;
 
+// 弧线样式示例
 public class B2ArcStyleView extends BaseView {
 
     private int width;
     private Paint ovalPaint;
+    private Paint arcPaint;
 
     public B2ArcStyleView(Context context) {
         this(context, null);
@@ -28,6 +30,10 @@ public class B2ArcStyleView extends BaseView {
         ovalPaint = new Paint();
         ovalPaint.setColor(Color.parseColor("#484848"));
         ovalPaint.setAntiAlias(true);
+
+        arcPaint = new Paint();
+        arcPaint.setColor(Color.GREEN);
+        arcPaint.setAntiAlias(true);
     }
 
     @Override
@@ -39,21 +45,21 @@ public class B2ArcStyleView extends BaseView {
     @Override
     protected void onDraw(Canvas canvas) {
 
+
         // 默认填充
         float offset = dp2px(100);
-        drawPath(canvas, offset, null);
+        arcPaint.setStyle(Paint.Style.FILL);
+        drawPath(canvas, offset);
 
         // 描边样式
         offset = dp2px(160);
-        drawPath(canvas, width - offset, Paint.Style.STROKE);
+        arcPaint.setStrokeWidth(10);
+        arcPaint.setStyle(Paint.Style.STROKE);
+        drawPath(canvas, width - offset);
 
     }
 
-    private void drawPath(Canvas canvas, float left,
-                         Paint.Style style) {
-
-        // 画笔
-        Paint paint = getPaint(style);
+    private void drawPath(Canvas canvas, float left) {
 
         // 椭圆矩形范围
         RectF ovalRect = getRect(left);
@@ -62,30 +68,18 @@ public class B2ArcStyleView extends BaseView {
         canvas.drawOval(ovalRect, ovalPaint);
 
         // 绘制弧线路径
-        drawArc(paint, ovalRect, canvas);
+        drawArc(ovalRect, canvas);
     }
 
-    private void drawArc(Paint paint, RectF ovalRect,
-                         Canvas canvas) {
+    private void drawArc(RectF ovalRect, Canvas canvas) {
         Path path = new Path();
         path.arcTo(ovalRect, 0, 90);
-        canvas.drawPath(path, paint);
-    }
-
-    private Paint getPaint(Paint.Style style) {
-        Paint paint = new Paint();
-        paint.setColor(Color.GREEN);
-        paint.setAntiAlias(true);
-        if (style != null) {
-            paint.setStrokeWidth(10);
-            paint.setStyle(style);
-        }
-        return paint;
+        canvas.drawPath(path, arcPaint);
     }
 
     private RectF getRect(float left) {
         float top = dp2px(30);
-        float width = dp2px(60);
+        float width = dp2px(80);
         float right = left + width;
         float bottom = top + width;
         RectF ovalRect = new RectF(left, top, right, bottom);
